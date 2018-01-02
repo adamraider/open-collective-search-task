@@ -22,6 +22,7 @@ git clone https://github.com/adamraider/open-collective-search-task.git
 cd open-collective-search-task
 bundle
 rake db:setup
+rake import:collectives
 cd frontend
 yarn
 ```
@@ -34,4 +35,11 @@ rails s
 # In second terminal window:
 cd frontend
 yarn dev
+```
+
+## Build
+
+```
+cd frontend
+yarn build
 ```

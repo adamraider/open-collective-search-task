@@ -60,7 +60,7 @@ var webpackConfig = merge(baseWebpackConfig, {
         removeAttributeQuotes: true
       },
       chunksSortMode: 'dependency'
-    })
+    }),
     // split vendor js into its own file
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
