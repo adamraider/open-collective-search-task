@@ -1,0 +1,27 @@
+@import './vars'
+
+body
+  font-family: 'Proxima Nova', 'Avenir', Helvetica, Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  color: $bodyTextColor
+  background-color: $bodyBgColor
+  line-height: 1.5
+
+h1, h2, h3, h4, h5, h6
+  letter-spacing: -0.075rem
+  &:first-child
+    margin-top: 0
+
+input, select, button, textarea
+  border: 0
+  outline: 0
+  font-family: inherit
+
+*
+  box-sizing: border-box
+  background-repeat: no-repeat
+
+a
+  text-decoration: none
+  color: inherit

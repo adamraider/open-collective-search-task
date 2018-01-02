@@ -1,0 +1,11 @@
+@mixin container
+  max-width: $pageWidth
+  width: 100%
+  margin: 0 auto
+  padding: 0 2rem
+  & > div:last-child
+    margin-bottom: 0 !important
+
+.section__content
+  +container
+  margin-top: 1rem
