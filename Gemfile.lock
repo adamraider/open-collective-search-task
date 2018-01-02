@@ -74,7 +74,6 @@ GEM
     nio4r (2.2.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
-    pager_api (0.2.3)
     pg (0.21.0)
     pg_search (2.1.2)
       activerecord (>= 4.2)
@@ -154,7 +153,6 @@ DEPENDENCIES
   active_model_serializers
   byebug
   listen (>= 3.0.5, < 3.2)
-  pager_api
   pg (~> 0.18)
   pg_search
   puma (~> 3.7)
